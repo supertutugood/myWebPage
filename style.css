@@ -1,0 +1,111 @@
+.page{
+    background-color: rgb(54, 96, 151);
+    background-image: url(Background.gif);
+    background-size: 30%; 
+    margin: 0;
+}
+
+.h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(255, 255, 255);
+    white-space: pre-line;
+}
+
+.a{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(255, 255, 255);
+    white-space: pre-line;
+}
+
+.name{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.button{
+
+    background-color: rgba(54, 96, 151, 0.7);
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imageContainer{
+
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.drawing{
+
+    background-color: rgba(54, 96, 151, 0.85);
+    margin: auto;
+    margin-bottom: 40px;
+    width: 1000px;
+    height: 800px;
+    border-radius: 10%;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 75%;
+
+    font-size: 60px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    
+}
+
+.text{
+
+    background-color: rgba(54, 96, 151, 0.85);
+    margin: auto;
+    margin-bottom: 40px;
+    width: 1000px;
+    height: auto;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 75%;
+
+    font-size: 60px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-y: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sep{
+    width: 100%; 
+    height: 8px; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    margin-top: 2%;
+}
+
+.drawing:hover{
+    animation: Focus 0.5s forwards;
+}
+
+@keyframes Focus{
+    0% {background-size: 80%; background-position-y: 90%; border-radius: 10%; font-size: 60px;}
+    100% {background-size: 100%; background-position-y: center; border-radius: 0%; font-size: 0px;}
+}
