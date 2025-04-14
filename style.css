@@ -6,13 +6,13 @@
 }
 
 .h1{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: bradley hand, cursive;
     color: rgb(255, 255, 255);
     white-space: pre-line;
 }
 
 .a{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: bradley hand, cursive;
     color: rgb(255, 255, 255);
     white-space: pre-line;
 }
@@ -31,7 +31,7 @@
     border-radius: 10%;
     font-size: 40px;
     color: rgb(255, 255, 255);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: bradley hand, cursive;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -69,7 +69,7 @@
     font-size: 60px;
     padding-top: 20px;
     color: rgb(255, 255, 255);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: bradley hand, cursive;
     text-align: center;
     
 }
@@ -89,7 +89,7 @@
     font-size: 60px;
     padding-top: 20px;
     color: rgb(255, 255, 255);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: bradley hand, cursive;
     overflow-y: auto;
     padding-left: 20px;
     padding-right: 20px;
