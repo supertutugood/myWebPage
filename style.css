@@ -1,6 +1,6 @@
 .page{
     background-color: rgb(54, 96, 151);
-    background-image: url(Background.gif);
+    background-image: url('background.gif');
     background-size: 30%; 
     margin: 0;
 }
