@@ -124,7 +124,7 @@ function NewCan(){
         } 
         else if(currentCan < 25)
         {
-            can.style.backgroundImage ="URL('SVNS.png')";
+            can.style.backgroundImage ="URL('SEVN.png')";
             quote.innerHTML = "Great for cocktails!";
         }
         else if(currentCan < 26){
