@@ -110,3 +110,101 @@
     0% {background-size: 80%; background-position-y: 90%; border-radius: 10%; font-size: 60px;}
     100% {background-size: 100%; background-position-y: center; border-radius: 0%; font-size: 0px;}
 }
+
+/*Soda*/
+
+.dispenser{
+    background-image: url('Soda/Dispenser.png');
+    background-size: cover;
+    display: flex;
+    width: 800px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.portal{
+    background-image: url('Soda/Portal.gif');
+    background-size: cover;
+    display: flex;
+    width: 760px;
+    height: 850px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.can{
+    background-size: contain;
+    position: absolute;
+    transform: translate(300px,300px);
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    -webkit-user-select: none;
+    background-repeat: no-repeat;
+}
+
+.sun{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('Soda/Win.gif');
+    width: 900px;
+    height: 1300px;
+    transform: translate(0px,90px);
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    -webkit-user-select: none;
+    transform: scale(0);
+}
+
+.YouGot{
+    background-image: url(Soda/YouGot.png);
+    position: absolute;
+    background-size: contain;
+    transform: translate(220px,160px);
+    width: 480px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.quote{
+    font-family: bradley hand, cursive;
+    color: rgb(167, 69, 247);
+    white-space: pre-line;
+    width: 500px;
+    transform: translate(200px,610px);
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.enterCan{
+    animation: EnterCan 0.7s forwards;    
+}
+
+.exitCan{
+    animation: ExitCan 0.2s forwards;
+}
+
+@keyframes EnterCan{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+
+@keyframes ExitCan{
+	from{transform: scale(1);}
+	to{transform: scale(0);}
+}
